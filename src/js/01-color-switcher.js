@@ -48,5 +48,5 @@ function onStopButtonClick(event) {
   event.target.disabled = true;
   startButtonRef.disabled = false;
   clearInterval(intervalId);
-  bodyRef.style.backgroundColor = '';
+  // bodyRef.style.backgroundColor = '';
 }
